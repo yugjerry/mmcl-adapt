@@ -11,14 +11,11 @@ Multi-modal contrastive learning as a self-supervised representation learning te
 ## Repository Structure
 
 ```
-├── utils.py              # Neural network architectures and data generation
-├── _train_norm.py       # Main training script for contrastive learning
-├── process_utils.py     # Utility functions for post-processing results
-├── process.py           # Script for aggregating and visualizing results
-├── data/                # Data directory (to be created)
-│   ├── yfcc/
-│   ├── imagenetv2/
-│   └── citeseq/
+├── codes/
+│   ├── utils.py
+│   ├── _train_norm.py
+│   ├── process_utils.py
+│   └── process.py
 └── README.md
 ```
 
